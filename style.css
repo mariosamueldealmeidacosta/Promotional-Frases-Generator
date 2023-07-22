@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    /* background-image: linear-gradient(to bottom, #ff0000, #ff9999);       */
     background: radial-gradient(ellipse at center, #cdb4db 0%, #a2d2ff 100%);
     background-size: 100% 100%;
     background-position: left center;
@@ -52,9 +51,6 @@ body{
       margin-left: 20px;
 }
 
-/* aqui deve ficar a estilizaçao da div */
-
-/* estilizaçao da div resultado */
 #resultado{
   margin-top: 5%;
 }
@@ -83,12 +79,3 @@ body{
   float: right;
 }
 
-/* botao de copiar */
-/* #copyButton{
-  color: beige;
-} */
-
-/* botao de deletar */
-/* #DeleteButton{
-  background-color: crimson;
-} */

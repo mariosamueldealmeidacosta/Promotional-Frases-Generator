@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
 // variaveis uteis 
 let publishedCompanyName;
 let tituloPromocional;
-// let textToCopy;
 
 // Array de palavras-chave para os títulos promocionais
 const palavrasChave = ["delicioso", "saboroso", "irresistível", "incrível", "especial", "promocional", "imperdível", "refrescante", "tentador", "exclusivo"];
@@ -43,43 +42,6 @@ function gerarTituloPromocional() {
   return tituloPromocional;
 }
 
-// funçao que coloca a frase gerada no site 
-
-// function colocarNoSite(){
-//   //criando o elemento
-//   const newPhrase = document.createElement('p');
-//   newPhrase.className = 'generatedPhrases';
-//   newPhrase.textContent = tituloPromocional;
-
-//   // adicionar o elemento há um elemento pai
-//   const FatherElement = document.querySelector('#resultado');
-//   FatherElement.appendChild(newPhrase);
-
-//   const newCopy = document.createElement("button");
-//   newCopy.className = 'botaoesDaPagina';
-//   newCopy.id = 'copyButton';
-//   newCopy.textContent = "Copiar";
-//   textToCopy = tituloPromocional;
-//   console.log(textToCopy); 
-
-//   //adicionar o evento onclick 
-//   newCopy.onclick = foiClicado(tituloPromocional);
-
-//   // adicionar o elemento há um elemento pai
-//   FatherElement.appendChild(newCopy);
-// }
-
-//tenho que criar o botao de copy e de deletar 
-  
-
-///////////////////////////////////////////////////
-/////////////////////////////////////////////////////
-////////////////////////////////////////////////////
-//////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
-//nova versão do código
 
 function colocarNoSite() {
   // Criando o elemento <p>
